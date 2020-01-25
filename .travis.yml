@@ -17,8 +17,6 @@ matrix:
           env: KERAS_BACKEND=tensorflow MODE=TF1
         - python: 2.7
           env: KERAS_BACKEND=tensorflow MODE=TF2
-        - python: 3.6
-          env: KERAS_BACKEND=tensorflow MODE=TF2
         - python: 2.7
           env: KERAS_BACKEND=theano THEANO_FLAGS=optimizer=fast_compile MKL="mkl mkl-service" RUN_ONLY_BACKEND_TESTS=1
         - python: 3.6
